@@ -1,7 +1,6 @@
 import "./styles.css";
 import { Component } from "react";
 import Counter from "./components/Counter";
-import Netflix from "./components/Netflix";
 
 class App extends Component {
   constructor() {
@@ -12,8 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Counter /> */}
-        <Netflix />
+        <Counter />
       </div>
     );
   }
