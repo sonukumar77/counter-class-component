@@ -23,7 +23,7 @@ class Counter extends Component {
 
   render() {
     return (
-      <div style={{ marginTop: "2rem" }}>
+      <div style={{ margin: " auto 8rem", textAlign: "center" }}>
         <h1>Counter App</h1>
         <button onClick={this.increaseCounter} style={{ marginTop: "1rem" }}>
           Increment
